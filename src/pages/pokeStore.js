@@ -68,9 +68,10 @@ function PokeStore() {
     }, []);
 
     function removePokemon(pokemon) {
-        setCartPokemons(
-            cartPokemons.filter((pokemonInCart) => pokemonInCart.id !== pokemon.id)
-        );
+	    let selectedIndex = cartPokemons.findIndex(pokemonInCart => pokemonInCart.id === pokemon.id);
+	    setCartPokemons(
+		    cartPokemons.filter((pokemonInCart, index) => index !== selectedIndex)
+	    );
     }
 
     
