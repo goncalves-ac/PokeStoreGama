@@ -1,0 +1,18 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.bodyPokeStore {
+    position: fixed;
+    top: 15vh;
+    margin-left: 10vw;
+    margin-right: 35vw;
+
+    display: grid;
+    gap: 4em;
+    grid-template-columns: repeat(4, auto);
+
+    min-height: 450px;
+}

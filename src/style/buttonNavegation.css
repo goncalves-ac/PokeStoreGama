@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: monospace;
+}
+
+.navegation {
+    width: 75vw;
+    position: fixed;
+    bottom: 7vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navegation button {
+    width: 12vw;
+    height: 4.5vh;
+    border: none;
+    border-radius: 5px 5px 5px 5px;
+    text-align: center;
+    background-color: #2b72b9;
+    color: #ffffff;
+    font-weight: bolder;
+    font-size: 1.4em;
+    box-shadow: 2px 2px 5px #2b72b9;
+}
+
+.anterior {
+    margin-left: 1em;
+}
+
+.proximo {
+    margin-right: 1em;
+}
