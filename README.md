@@ -1,7 +1,6 @@
 # PokeStore
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/c34fc6cb-f1c8-4264-b739-0243c625d04a/deploy-status)](https://app.netlify.com/sites/pokestore-gamacademy/deploys)
-
+Site: <a href="https://pokestore-gamacademy.netlify.app/pokeStore">PokeStore</a>
 ________
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
