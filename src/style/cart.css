@@ -1,0 +1,158 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: monospace;
+}
+
+.cart {
+    height: 100vh;
+    width: 25vw;
+    background-color: white;
+    position: fixed;
+    right: 0;
+    box-shadow: -3px -3px 10px #2b72b9;
+}
+
+.cartLogo{
+    text-align: center;
+    margin: .5em;
+}
+
+.cartLogo img {
+    height: 5.2vh;
+}
+
+hr {
+    background-color: #2b72b9;
+    border: 2px solid #2b72b9;
+}
+
+.pokeCompras {
+    display: grid;
+    grid-template-columns: auto;
+    gap: 1vh;
+}
+
+.cartBody {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    justify-content: space-around;
+    align-items: center;
+}
+
+.pokeInfo img {
+    height: 8vh;
+    padding: 0.5vh;
+}
+
+.pokeInfo p {
+    font-size: 1.2em;
+    font-weight: bolder;
+}
+
+.pokeInfo span {
+    display: none;
+}
+
+.cartFooter {
+    background-color: whitesmoke;
+    position: fixed;
+    bottom: 0;
+}
+
+.cartTotal p {
+    font-size: 1.3em;
+    font-weight: bolder;
+    margin: .5em;
+    color: #2b72b9;
+}
+
+.buttonClose button{
+    height: 4vh;
+    width: 4vh;
+    font-size: 1.5em;
+    background-color: #ffcb05;
+    color: #2b72b9;
+    border: 2px solid #2b72b9;
+    border-radius: 50%;
+
+}
+
+.cartButton button {
+    width: 25vw;
+    height: 6vh;
+    border: none;
+    background-color: #ffcb05;
+    color: #2b72b9;
+    font-weight: bolder;
+    font-size: 1.5em;
+    box-shadow: 2px 2px 5px #2b72b9;
+}
+
+@media (max-width: 500px) {
+
+    .cartLogo img {
+        height: 4vh;
+    }
+
+    .pokeCompras {
+        display: grid;
+        grid-template-columns: auto;
+        gap: 1vh;
+    }
+
+    .cartBody {
+        display: grid;
+        grid-template-columns: auto;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .pokeInfo img {
+        height: 7vh;
+    }
+
+    .pokeInfo p {
+        font-size: 1em;
+        font-weight: bolder;
+    }
+
+    .cartTotal p {
+        font-size: 1em;
+    }
+
+    .buttonClose button{
+        height: 4vh;
+        width: 4vh;
+        font-size: 1.1em;
+    }
+
+}
+
+@media (max-width: 350px) {
+
+    .cartLogo img {
+        height: 3vh;
+    }
+
+    .pokeInfo img {
+        height: 6vh;
+    }
+
+    .pokeInfo p {
+        font-size: 0.8em;
+        font-weight: bolder;
+    }
+
+    .cartTotal p {
+        font-size: 1em;
+    }
+
+    .buttonClose button{
+        height: 3vh;
+        width: 3vh;
+        font-size: 0.8em;
+    }
+
+}

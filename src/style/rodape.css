@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.rodape {
+    position: fixed;
+    bottom: 0;
+    height: 6vh;
+    width: 75vw;
+    background-color: #2b72b9;
+}
+
+.rodapeLogo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rodapeLogo img {
+    height: 3.5vh;
+    margin-top: 0.5em;
+    margin-right: 1em;
+}
+
+.rodapeLogo p {
+    color: whitesmoke;
+    margin-top: 0.5em;
+}
+
+.rodapeLogo span {
+    font-weight: bolder;
+}
+
+@media (max-width: 350px) {
+    
+    .rodapeLogo img {
+        height: 3.5vh;
+        margin-top: 0.5em;
+        margin-right: 1em;
+    }
+    
+    .rodapeLogo p {
+        color: whitesmoke;
+        margin-top: 0.1em;
+    }
+    
+}
