@@ -1,6 +1,6 @@
 # PokeStore
 
-Site: <a href="https://pokestore-gamacademy.netlify.app/pokeStore">PokeStore</a>
+Site: <a href="https://pokestore-gamacademy.netlify.app">PokeStore</a>
 ________
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
